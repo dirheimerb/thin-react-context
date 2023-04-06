@@ -1,0 +1,47 @@
+{
+  "name": "thin-react-context",
+  "version": "1.0.0",
+  "description": "This code defines a React context for managing user data in a React application. It imports the React library and a User type from 'thin-backend'. Then, it defines a UserContext interface with four properties: user, userId, setUser, and setUserId. The UserContext is created with default values using React.createContext, which initializes a new context with a default state consisting of user and userId as null, and empty setter functions for setUser and setUserId.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.tsx",
+    "build": "tsc"
+  },
+  "keywords": [
+    "thin-backend",
+    "react",
+    "nextjs",
+    "context"
+  ],
+  "author": "Bradley Dirheimer",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "thin-backend": "^0.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.33",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirheimerb/thin-react-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dirheimerb/thin-react-context.git/issues"
+  },
+  "homepage": "https://github.com/dirheimerb/thin-react-context.git#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
